@@ -17,3 +17,11 @@ DerivedData
 *.*-e
 app/CocoaPods/Ruby Integration/
 homebrew_cask/
+
+# OS X
+.DS_Store
+# Xcode
+build/
+xcuserdata/
+
+Pods/

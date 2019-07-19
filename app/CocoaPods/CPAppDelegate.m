@@ -1,5 +1,4 @@
 #import "CPAppDelegate.h"
-#import "CPCLIToolInstallationController.h"
 #import "CPDebuggerCheck.h"
 #import "CPHomeWindowController.h"
 #import "CPReflectionServiceProtocol.h"
@@ -21,6 +20,7 @@
 
 - (void)applicationWillFinishLaunching:(NSNotification *)notification;
 {
+  // 是否要移动到 Application 文件夹
   PFMoveToApplicationsFolderIfNecessary();
   [self startURLService];
   [self checkForBirthday];
